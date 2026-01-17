@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Typing speed timer</title>
+</head>
+<body>
+  <header>
+    <h1>TYPING SPEED TEST</h1>
+    <button class="toggle">TOGGLE</button>
+  </header>
+
+  <section class="first-sect">
+    <div class="first-div">
+      <p class="wordPM">WPM: <span class="word-per-min-span">0</span></p>
+      <p class="acuracy-para">ACCURACY: <span class="accuracy-span">0</span></p>
+      <p class="time-para">TIME: <span class="time-span">0</span></p>
+    </div>
+
+    <div class="second-div">
+      <p class="dificulty-para">DIFICULTY:</p>
+      <button class="easy-button choose">Easy</button>
+      <button class="medium-button choose">Medium</button>
+      <button class="hard-button choose">Hard</button>
+    </div>
+
+    <div class="third-div">
+      <p class="mode-para">MODE:</p>
+      <button class="time-set">Timed (60s)</button>
+      <button class="passage-changer">Passage</button>
+    </div>
+  </section>
+  
+  <section class="second-sect">
+   <div class="text">
+    <p class="passage-para"></p>
+    <textarea name="space" id="text-input"></textarea>
+   </div>
+  </section>
+
+  <footer>
+    <button class="restart">Restart Test</button>
+  </footer>
+
+  <script type="module" src="script.js"></script>
+</body>
+</html>
